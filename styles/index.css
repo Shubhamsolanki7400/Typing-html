@@ -1,5 +1,6 @@
 body{
-    margin: 0;
+    margin: auto;
+    overflow-x: hidden;
 }
 .navbar-container{
     background-color: #83bceb;
@@ -24,7 +25,10 @@ body{
     align-items: center;
   }
   
-
+.section{
+    padding-left: 14rem;
+    padding-right: 14rem;
+}
 
 .canvas{
    background: #67B1EA;
@@ -139,8 +143,8 @@ body{
 
 .typewriter{
     padding-top: 12rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
     background-color: #83bceb;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -253,7 +257,7 @@ img.card-img {
 }
 .footer {
     background: #373D45;
-    padding: 3rem 10.5rem;
+    padding: 3rem 14.5rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -270,14 +274,41 @@ img.card-img {
 .footer p {
     color: white;
 }
+.prepare{
+    padding-right: 14rem;
+    padding-left: 14rem; 
+  }
+
+  .left-tag {
+    width: 100%;
+    padding-right: 7.5rem;
+    padding-left: 7.5rem;
+  }
+
+  .right-tag{
+    width: 100%;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+
+  .typing-com{
+    padding-right: 14rem;
+    padding-left: 14rem;
+  }
 
 @media screen and (max-width: 900px) {
     .img-ninty{
       display: none;
     }
-  }
+    body{
+        overflow-x: hidden;
+    }
+}
   
   @media screen and (max-width:767px) {
+    body{
+        overflow-x: hidden;
+    }
     .im{
      margin-top: 100px;
     }
@@ -299,6 +330,10 @@ img.card-img {
         text-align: center;
         margin-left: 0px;
     }
+    .typing-com{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
     .heavyweight{
         margin-bottom: 50px;
         text-align: center;
@@ -312,7 +347,74 @@ img.card-img {
     .btn-student{
         display: flex;
         justify-content: center;
+        gap: 25px;
     }
-  }
+    .section{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .typewriter{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .prepare{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .left-tag{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .right-tag{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 
+  }
   
+
+ 
+  
+  .serve {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tabs-nav {
+    list-style: none;
+  }
+  
+  .tab-link {
+    display: table;
+    width: 100%;
+    text-decoration: none;
+    color: #36373b;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: quicksand, sans-serif;
+    position: relative;
+  }
+  
+  .tab-link:hover {
+    color: #1BBC9B;
+  }
+  
+
+ 
+  
+  
+  
+  .tab-link:hover:before {
+    margin-left: -10px;
+    opacity: 1;
+  
+  }
+  
+  .tab-head {
+    margin-bottom: 25px;
+    display: table;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: quicksand, sans-serif;
+  } 
